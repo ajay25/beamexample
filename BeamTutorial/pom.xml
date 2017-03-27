@@ -253,6 +253,12 @@
       <version>${beam.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.apache.beam</groupId>
+      <artifactId>beam-sdks-java-io-kinesis</artifactId>
+      <version>${beam.version}</version>
+    </dependency>
+
     <!-- Adds a dependency on a specific version of the Beam Google Cloud Platform IO module. -->
     <dependency>
       <groupId>org.apache.beam</groupId>
@@ -363,6 +369,13 @@
       <artifactId>mockito-all</artifactId>
       <version>1.9.5</version>
       <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>4.5.2</version>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 </project>
